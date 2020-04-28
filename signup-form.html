@@ -4,6 +4,8 @@
 <head>
     <meta content="text/html; charset=UTF-8" http-equiv="Content-Type" />
     <title>Book World</title>
+    <script src="./js/signup.js"></script>
+
 </head>
 
 <body>
@@ -12,35 +14,45 @@
         <img src="./images/book-logo.png">
         <h3> Book World </h3>
     </header>
-    <form class="registration">
 
-        <legend> Регистрация </legend>
+    <main>
+        <label id="msg"></label>
 
-        <div class="input-container">
-            <input type="email" id="username" required placeholder="E-mail">
+        <form class="registration" method="POST" onsubmit="return validate();">
+
+            <legend> Регистрация </legend>
+
+            <div class="input-container">
+                <input type="email" id="username" required placeholder="E-mail">
+
+                <lebel id="usernameError"></lebel>
+            </div>
+
+            <div class="input-container">
+                <input type="text" id="firstName" required pattern="[\w]+" placeholder="First Name" title=" The username must contain 3 to 10 characters (letters, numbers and _ ).">
+            </div>
+
+            <div class="input-container">
+                <input type="text" id="lastName" required pattern="[\w]+" placeholder="Last Name" title=" The username must contain 3 to 10 characters (letters, numbers and _ ).">
+            </div>
+
+            <div class="input-container">
+                <input type="password" id="password" placeholder="Password" minlength="6" required title="The password must be at least 6 characters, including uppercase, lowercase, and number.">
+                <lebel id="passwordError"></lebel>
+            </div>
+
+            <div class="input-container">
+                <input type="password" id="confirmPassword" required placeholder="Confirm Password">
+                <label id="confirmPasswordError"></lebal>    
         </div>
 
-        <div class="input-container">
-            <input type="text" id="firstName" required pattern="[\w]+" placeholder="Име" title=" The username must contain 3 to 10 characters (letters, numbers and _ ).">
-        </div>
-
-        <div class="input-container">
-            <input type="text" id="lastName" required pattern="[\w]+" placeholder="Фамилия" title=" The username must contain 3 to 10 characters (letters, numbers and _ ).">
-        </div>
-
-        <div class="input-container">
-            <input type="password" id="password" placeholder="Парола" minlength="6" required title="The password must be at least 6 characters, including uppercase, lowercase, and number.">
-        </div>
-
-        <div class="input-container">
-            <input type="password" id="confirmPassword" required placeholder="Повтори паролата">
-        </div>
-
-        <div class="controllers">
-            <button type="submit"> Регистрация </button>
-        </div>
+            <div class="controllers">
+                <button type="submit"> Регистрация </button>
+            </div>
 
     </form>
+    </main>
+
 </body>
 
 </html>
