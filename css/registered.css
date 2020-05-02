@@ -69,6 +69,7 @@ div.search input[type=text] {
     padding-bottom: 10px;
     text-align:left;
     font-family: "Comic Sans MS", cursive, sans-serif;
+    padding-left:20px;
 
 }
 
@@ -83,18 +84,17 @@ div.search input[type=text] {
 .filter{
     display: inline-block;
     vertical-align: top;
-    padding-left: 25px;
+    padding-left: 45px;
     position: relative;
     margin-bottom: 10px;
 }
 .sort p{
   font-size:24px;
   text-align:left;
-
 }
 .filter input {
     position: absolute;
-    left: 0;
+    left: 20px;
     top: 0;
   }
 
@@ -128,7 +128,7 @@ div.search input[type=text] {
   height: 200px;
   margin-right: 10px;
   }
-  .news1 p{
+.news1 p{
     text-align: justify;
     vertical-align: top;
     font-size:24px;
