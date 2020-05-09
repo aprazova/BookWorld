@@ -4,6 +4,7 @@
 <head>
     <meta content="text/html; charset=UTF-8" http-equiv="Content-Type" />
     <title>Book World</title>
+    <link href="css/login-form.css" rel="stylesheet"></link>
 </head>
 
 <body>
@@ -14,22 +15,22 @@
     </header>
     <form method="POST" class="registration">
 
-        <legend> Вход </legend>
+        <legend> Login </legend>
 
         <div class="input-container">
             <input type="email" id="username" required placeholder="E-mail">
         </div>
 
         <div class="input-container">
-            <input type="password" id="password" placeholder="Парола" minlength="6" required title="The password must be at least 6 characters, including uppercase, lowercase, and number.">
+            <input type="password" id="password" placeholder="Password" minlength="6" required title="The password must be at least 6 characters, including uppercase, lowercase, and number.">
         </div>
-
-        <button type="submit" onclick="window.location='./signup-form.html';" value="Redirect"> Регистрация </button>
 
         <div class="controllers">
-            <button type="submit"> Вход </button>
-            <a href="#"> Забравена парола?</a>
+            <button type="submit" onclick="window.location='./singup-form.html';" value="Redirect"> Sign in </button>
+            <button type="submit"> Login </button>
         </div>
+        
+        <a href="#"> Forgotten password? </a>
 
     </form>
 </body>
