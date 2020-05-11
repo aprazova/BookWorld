@@ -8,7 +8,9 @@
     <link href="./css/bookstylesheet.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
+    <script defer src="./js/addComment.js"></script>
 
 </head>
 
@@ -73,6 +75,11 @@
                     <input type="radio" id="star1" name="rating" value="1" />
                     <label for="star1">1 star</label>
                 </div>
+
+                <div class="buttons">
+                    <input type="button" class="button order" id="order" value="Order" onclick="document.location='./map_harry_potter.html'" />
+                    <input type="button" class="button book-availability" id="book-availability" value="Book Availability" />
+                </div>
             </div>
 
             <div class="center-column book-desctription">
@@ -93,13 +100,17 @@
                     <img src="./images/comments.png" class="icon" alt="Comments icon">
                     <p>Comments</p>
                 </div>
-                <div class="comments">
+                <div class="comments" id="comments">
                     <p><i>Maria Godjeva: </i>That is my favourite books.</p>
                     <p><i>Vanya Dimitrova: </i>I love every book written by Rowling.</p>
                 </div>
+                <!-- <br/> -->
                 <div class="newComment">
                     <img src="./images/profile.png" class="avatar" alt="Profile image">
-                    <textarea placeholder="Add a comment"></textarea>
+                    <!-- <input type="text" id="comment-body" placeholder="Add a comment" /> -->
+
+                    <textarea id="comment-body" rows="3" cols="35" placeholder="Add a comment"></textarea>
+                    <input type="button" id="add-comment" value="Add Comment">
                 </div>
             </div>
         </div>
