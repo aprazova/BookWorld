@@ -1,0 +1,171 @@
+.container {
+    background-image: url("../images/background.gif");
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+header legend {
+    width: 100px;
+    font-size: 50px;
+    text-align: center;
+    /* padding-top: 50px; */
+    /* padding-bottom: 50px; */
+    margin: 50px auto 50px;
+}
+
+.logo {
+    width: 40px;
+    height: 40px;
+    margin-left: 300px;
+}
+
+figcaption.title {
+    font-size: 48px;
+    margin: -60px;
+    margin-left: 400px;
+}
+
+.checked {
+    color: orange;
+}
+
+div.search input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    width: 20%;
+    background: #f1f1f1;
+    margin-left: 800px;
+    border-right: none;
+    opacity: 0.5;
+}
+
+div.search button {
+    width: 5%;
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none;
+    opacity: 0.5;
+}
+
+div.search button:hover {
+    background-color: khaki;
+}
+
+input[type=image] {
+    width: 40px;
+    height: 40px;
+    float: right;
+    margin-top: -40px;
+}
+
+.nav {
+    position: fixed;
+    top: 40%;
+    left: 0px;
+    width: 55px;
+    height: 270px;
+    background: linear-gradient(grey, lightgrey);
+    border-radius: 20px;
+}
+
+.nav button {
+    background-color: transparent;
+    border: none;
+}
+
+.border {
+    border-bottom: 1px solid black;
+}
+
+.genres img,
+.authors img,
+.wl img,
+.fa img,
+.filter img {
+    width: 40px;
+    height: 40px;
+    margin-top: 5px;
+    margin-bottom: 2px;
+}
+
+.bookSection {
+    /* display: inline; */
+    width: auto;
+    /* height: 500px; */
+    margin-left: 100px;
+    background-image: linear-gradient(grey, lightgrey);
+    border-radius: 40px;
+    overflow: hidden;
+}
+
+.header-container {
+    text-align: center;
+}
+
+.content-container {
+    padding: 10px 20px 100px 20px;
+    /* border: solid; */
+}
+
+.left-column {
+    /* width: 300px; */
+    width: 25%;
+    border: solid;
+    float: left;
+}
+
+.center-column {
+    width: 45%;
+    border: solid;
+    display: inline-block;
+    padding: 5px 20px 5px 20px;
+    text-align: justify;
+}
+
+.right-column {
+    width: 25%;
+    border: solid;
+    float: right;
+}
+
+.biography img {
+    float: left;
+    width: 80%;
+    height: 70%;
+    margin: 0 5%;
+    padding-bottom: 10px;
+}
+
+.rating {
+    padding-left: 10px;
+}
+
+.commentsSection p {
+    font-size: 18px;
+    float: right;
+}
+
+.authorSection h3 {
+    text-align: center;
+}
+
+hr {
+    border-color: darkgray;
+}
+
+.heading img {
+    width: 30px;
+    height: 30px;
+    /* float: left; */
+}
+
+.comments p {
+    float: left;
+}
+
+.newComment img {
+    width: 30px;
+    height: 30px;
+}

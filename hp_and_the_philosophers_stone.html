@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="bg">
+
+<head>
+    <meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Book World</title>
+    <link href="./css/bookstylesheet2.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body class="container">
+    <div class="nav">
+        <div class="border">
+            <a href='genres.html'><button type="button" class="genres"><img src="./images/genres.png"></button> </a>
+        </div>
+        <div class="border">
+            <a href='authors.html'><button type="button" class="authors"><img src="./images/authors.png"></button></a>
+        </div>
+        <div class="border">
+            <a href='wishList.html'><button type="button" class="wl"><img src="./images/wl.png"></button></a>
+        </div>
+        <div class="border">
+            <a href='favouriteAuthors.html'><button type="button" class="fa"><img src="./images/fa.png"></button> </a>
+        </div>
+        <a href='authors.html'><button type="button" class="filter"><img class="filterIcon"
+                    src="./images/filter.png"></button></a>
+    </div>
+    <header>
+        <figure>
+            <img class="logo" src="./images/book-logo.png" alt="Book world logo">
+            <figcaption class="title"> Book World</figcaption>
+        </figure>
+        <div class="search">
+            <input class="searchBar" type="text" placeholder="Search">
+            <button type="submit"><i class="fa fa-search"></i></button>
+        </div>
+        <div class="login">
+            <form action="login-form.html">
+                <input type="image" src="./images/profile.png" alt="Submit">
+            </form>
+        </div>
+        <legend>Books</legend>
+    </header>
+    <section class="bookSection">
+
+        <div class="header-container">
+            <h3>Harry Potter And The Philosophers Stone</h3>
+            <hr>
+        </div>
+        <div class="content-container">
+            <div class="left-column biography">
+                <div class="photo">
+                    <img src="./images/harry_potter_and_the_philosophers_stone.png" alt="harry potter and the philosophers stone">
+                </div>
+
+                <div class="rating">
+                    <span>Rate: </span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                </div>
+            </div>
+
+            <div class="center-column book-desctription">
+                <!-- <div class="book-desctription"> -->
+                <p> Author: <a href="#">J.K. Rowling</a></p>
+
+                <p> Harry Potter and the Philosopher's Stone is a fantasy novel written by British author J. K. Rowling. The first novel in the Harry Potter series and Rowling's debut novel, it follows Harry Potter, a young wizard who discovers his magical
+                    heritage on his eleventh birthday, when he receives a letter of acceptance to Hogwarts School of Witchcraft and Wizardry. Harry makes close friends and a few enemies during his first year at the school, and with the help of his friends,
+                    Harry faces an attempted comeback by the dark wizard Lord Voldemort, who killed Harry's parents, but failed to kill Harry when he was just 15 months old.
+                </p>
+                <p> The book was first published in the United Kingdom on 26 June 1997 by Bloomsbury. It was published in the United States the following year by Scholastic Corporation under the title Harry Potter and the Sorcerer's Stone. It won most of
+                    the British book awards that were judged by children and other awards in the US. The book reached the top of the New York Times list of best-selling fiction in August 1999 and stayed near the top of that list for much of 1999 and 2000.
+                    It has been translated into at least 73 other languages, and has been made into a feature-length film of the same name, as have all six of its sequels.
+                </p>
+                <!-- </div> -->
+            </div>
+
+            <div class="right-column commentsSection">
+                <div class="heading">
+                    <img src="./images/comments.png" class="icon" alt="Comments icon">
+                    <p>Comments</p>
+                </div>
+                <div class="comments">
+                    <p><i>Maria Godjeva: </i>That is my favourite books.</p>
+                    <p><i>Vanya Dimitrova: </i>I love every book written by Rowling</p>
+                </div>
+                <div class="newComment">
+                    <img src="./images/profile.png" class="avatar" alt="Profile image">
+                    <textarea placeholder="Add a comment"></textarea>
+                </div>
+            </div>
+
+        </div>
+        <!-- <div class="biography">
+
+            <div class="photo">
+                <img src="./images/harry_potter_and_the_philosophers_stone.png" alt="harry potter and the philosophers stone">
+            </div>
+
+            <div class="rating" id="rating">
+                <span>Rate: </span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+            </div>
+
+            <div class="book-desctription">
+                <p> Author: <a href="#">J.K. Rowling</a>
+                    <br/>
+                    <br/> Harry Potter and the Philosopher's Stone is a fantasy novel written by British author J. K. Rowling. The first novel in the Harry Potter series and Rowling's debut novel, it follows Harry Potter, a young wizard who discovers
+                    his magical heritage on his eleventh birthday, when he receives a letter of acceptance to Hogwarts School of Witchcraft and Wizardry. Harry makes close friends and a few enemies during his first year at the school, and with the help
+                    of his friends, Harry faces an attempted comeback by the dark wizard Lord Voldemort, who killed Harry's parents, but failed to kill Harry when he was just 15 months old.
+                    <br/>
+                    <br/> The book was first published in the United Kingdom on 26 June 1997 by Bloomsbury. It was published in the United States the following year by Scholastic Corporation under the title Harry Potter and the Sorcerer's Stone. It won
+                    most of the British book awards that were judged by children and other awards in the US. The book reached the top of the New York Times list of best-selling fiction in August 1999 and stayed near the top of that list for much of 1999
+                    and 2000. It has been translated into at least 73 other languages, and has been made into a feature-length film of the same name, as have all six of its sequels.
+                </p>
+            </div>
+
+        </div>
+        <div class="commentsSection">
+            <div class="heading">
+                <img src="./images/comments.png" class="icon" alt="Comments icon">
+                <p>Comments</p>
+            </div>
+            <div class="comments">
+                <p><i>Maria Godjeva: </i>That is my favourite books.</p>
+                <p><i>Vanya Dimitrova: </i>I love every book written by Rowling</p>
+            </div>
+            <div class="newComment">
+                <img src="./images/profile.png" class="avatar" alt="Profile image">
+                <textarea placeholder="Add a comment"></textarea>
+            </div>
+
+        </div> -->
+
+    </section>
+
+
+</body>
+
+</html>
