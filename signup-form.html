@@ -4,6 +4,7 @@
 <head>
     <meta content="text/html; charset=UTF-8" http-equiv="Content-Type" />
     <title>Book World</title>
+    <script src="./js/signup.js"></script>
     <link href="css/signup-form.css" rel="stylesheet"></link>
 </head>
 
@@ -13,15 +14,14 @@
         <img src="./images/book-logo.png">
         <h3> Book World </h3>
     </header>
-    <form class="registration">
 
+    <main>
+<!--         <label id="msg"></label> -->
         <legend> SignUp </legend>
 
-        <div class="input-container">
-            <input type="email" id="username" required placeholder="E-mail">
-        </div>
+        <form class="registration" method="POST" onsubmit="return validate();">
 
-        <div class="input-container">
+           <div class="input-container">
             <input type="text" id="firstName" required pattern="[\w]+" placeholder="First Name" title=" The username must contain 3 to 10 characters (letters, numbers and _ ).">
         </div>
 
@@ -42,6 +42,8 @@
         </div>
 
     </form>
+    </main>
+
 </body>
 
 </html>
