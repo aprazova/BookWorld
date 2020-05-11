@@ -6,9 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Book World</title>
     <link href="./css/rowling.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script> -->
 </head>
 
 <body class="container">
@@ -42,7 +42,7 @@
                 <input type="image" src="./images/profile.png" alt="Submit">
             </form>
         </div>
-        <p>Welcome to the Book World</p>
+        <p>Welcome to Authors</p>
     </header>
     <section class="authorSection">
         <h3>J. K. Rowling</h3>
@@ -74,12 +74,17 @@
             </div>
         </div>
         <div class="rating">
-            <span>Rate: </span>
-            <span class="fa fa-star checked"></span>
-            <span class="fa fa-star checked"></span>
-            <span class="fa fa-star checked"></span>
-            <span class="fa fa-star"></span>
-            <span class="fa fa-star"></span>
+            <p>Rate</p>
+            <input type="radio" id="star5" name="rating" value="5" />
+            <label for="star5">5 stars</label>
+            <input type="radio" id="star4" name="rating" value="4" />
+            <label for="star4">4 stars</label>
+            <input type="radio" id="star3" name="rating" value="3" />
+            <label for="star3">3 stars</label>
+            <input type="radio" id="star2" name="rating" value="2" />
+            <label for="star2">2 stars</label>
+            <input type="radio" id="star1" name="rating" value="1" />
+            <label for="star1">1 star</label>
         </div>
     </section>
 

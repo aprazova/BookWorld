@@ -20,8 +20,59 @@ figcaption.title {
     margin-left: 400px;
 }
 
-.checked {
-    color: orange;
+.rating {
+    float: left;
+    border: none;
+    margin: 0 2%;
+    clear: left;
+}
+
+.rating p {
+    font-size: 18px;
+    display: inline;
+}
+
+.rating:not(:checked)>input {
+    position: absolute;
+    top: -9999px;
+    clip: rect(0, 0, 0, 0);
+}
+
+.rating:not(:checked)>label {
+    float: right;
+    width: 1em;
+    /* padding: 0 .1em; */
+    overflow: hidden;
+    white-space: nowrap;
+    cursor: pointer;
+    font-size: 200%;
+    line-height: 1.2;
+    color: #ddd;
+}
+
+.rating:not(:checked)>label:before {
+    content: '★ ';
+}
+
+.rating>input:checked~label {
+    color: #f70;
+}
+
+.rating:not(:checked)>label:hover,
+.rating:not(:checked)>label:hover~label {
+    color: gold;
+}
+
+.rating>input:checked+label:hover,
+.rating>input:checked+label:hover~label,
+.rating>input:checked~label:hover,
+.rating>input:checked~label:hover~label,
+.rating>label:hover~input:checked~label {
+    color: #ea0;
+}
+
+.rating>label:active {
+    position: relative;
 }
 
 div.search input[type=text] {
@@ -88,7 +139,7 @@ input[type=image] {
 
 .authorSection {
     width: auto;
-    height: 500px;
+    /* height: auto; */
     margin-left: 200px;
     background-image: linear-gradient(grey, lightgrey);
     border-radius: 40px;
@@ -150,9 +201,4 @@ hr {
 .newComment img {
     width: 30px;
     height: 30px;
-}
-
-.rating {
-    margin: 0 2%;
-    clear: left;
 }
