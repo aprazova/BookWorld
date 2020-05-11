@@ -7,14 +7,7 @@ header legend {
     width: 100px;
     font-size: 50px;
     text-align: center;
-    /* padding-top: 50px; */
-    /* padding-bottom: 50px; */
     margin: 50px auto 50px;
-}
-
-p {
-    font-size: 40px;
-    text-align: center;
 }
 
 .logo {
@@ -95,49 +88,58 @@ input[type=image] {
     margin-bottom: 2px;
 }
 
-.authorSection {
-    /* display: inline; */
+.bookSection {
     width: auto;
-    /* height: 500px; */
     margin-left: 100px;
     background-image: linear-gradient(grey, lightgrey);
     border-radius: 40px;
     overflow: hidden;
 }
 
-.biography {
-    display: inline;
-    width: 70%;
+.header-container {
+    text-align: center;
+}
+
+.content-container {
+    padding: 10px 20px 100px 20px;
+}
+
+.left-column {
+    width: 25%;
     float: left;
 }
 
-.photo {
+.center-column {
+    width: 45%;
+    display: inline-block;
+    padding: 5px 20px 5px 20px;
     text-align: justify;
-    width: 250px;
+}
+
+.right-column {
+    width: 25%;
+    float: right;
+    margin: 5px;
 }
 
 .biography img {
     float: left;
-    width: 70%;
+    width: 80%;
     height: 70%;
     margin: 0 5%;
+    padding-bottom: 10px;
 }
 
-.biography p {
-    display: table-cell;
-    width: 60%;
+.rating {
+    padding-left: 10px;
+}
+
+.heading p {
     font-size: 18px;
-    text-align: justify;
-}
-
-.commentsSection {
-    width: 25%;
+    width: 85%;
+    margin-top: 0px;
     float: right;
-}
-
-.commentsSection p {
-    font-size: 18px;
-    float: right;
+    text-transform: uppercase;
 }
 
 .authorSection h3 {
@@ -151,7 +153,6 @@ hr {
 .heading img {
     width: 30px;
     height: 30px;
-    /* float: left; */
 }
 
 .comments p {
@@ -161,11 +162,4 @@ hr {
 .newComment img {
     width: 30px;
     height: 30px;
-}
-
-#rating {
-    width: 150px;
-    /* margin-right: -300px; */
-    margin: 0 2%;
-    clear: left;
 }
