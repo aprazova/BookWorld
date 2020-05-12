@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Book World</title>
+    <link href="./css/authors.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script defer src="./js/addComment.js"></script>
+
+</head>
+
+<body class="container">
+    <div class="nav">
+        <div class="border">
+            <a href='genres.html'><button type="button" class="genres"><img src="./images/genres.jpeg"></button> </a>
+        </div>
+        <div class="border">
+            <a href='authors.html'><button type="button" class="authors"><img src="./images/authors.jpeg"></button></a>
+        </div>
+        <div class="border">
+            <a href='wishList.html'><button type="button" class="wl"><img src="./images/wl.jpeg"></button></a>
+        </div>
+        <div class="border">
+            <a href='favouriteAuthors.html'><button type="button" class="fa"><img src="./images/fa.jpeg"></button> </a>
+        </div>
+        <a href='authors.html'><button type="button" class="filter"><img class="filterIcon"
+                    src="./images/filter.jpeg"></button></a>
+    </div>
+    <header>
+        <figure>
+            <img class="logo" src="./images/book-logo.jpeg" alt="Book world logo">
+            <figcaption class="title"> Book World</figcaption>
+        </figure>
+        <div class="search">
+            <input class="searchBar" type="text" placeholder="Search">
+            <button type="submit"><i class="fa fa-search"></i></button>
+        </div>
+        <div class="login">
+            <form action="login-form.html">
+                <input type="image" src="./images/profile.jpeg" alt="Submit">
+            </form>
+        </div>
+        <legend>Authors</legend>
+    </header>
+    <section class="bookSection">
+
+        <div class="header-container">
+            <h3>Joanne Rowling</h3>
+            <hr>
+        </div>
+        <div class="content-container">
+            <div class="left-column biography">
+                <div class="photo">
+                    <img src="./images/jk_rowling.jpeg" alt="Joanne Rowling portrait" />
+
+                </div>
+
+                <p class="paragraph"> Score: 4</p>
+            </div>
+
+            <div class="center-column book-desctription">
+                <p> Books: <a href="hp_and_the_philosophers_stone.html">Harry Potter and the Philosopher's Stone </a></p>
+
+                <p> J.K. Rowling, is a British author and screenwriter best known for her seven-book Harry Potter children's book series. The series has sold more than 500 million copies and was adapted into a blockbuster film franchise. </p>
+                <p>Rowling was born Joanne Rowling on July 31, 1965, in Yate, England. She adopted her pen name, J.K., incorporating her grandmother's name, Kathleen, for the latter initial (Rowling does not have a middle name).</p>
+                <p>A graduate of the University of Exeter, Rowling moved to Portugal in 1990 to teach English. There, she met and married the Portuguese journalist Jorge Arantes. The couple's daughter, Jessica, was born in 1993. After her marriage ended
+                    in divorce, Rowling moved to Edinburgh with her daughter to live near her younger sister, Di.</p>
+                <p>While struggling to support her daughter Jessica and herself on welfare, Rowling worked on her first book in the Harry Potter series. The idea for the book reportedly occurred to her while she was traveling on a train from Manchester to
+                    London in 1990.</p>
+            </div>
+
+            <div class="right-column commentsSection">
+                <div class="heading">
+                    <img src="./images/comments.png" class="icon" alt="Comments icon">
+                    <p>Comments</p>
+                </div>
+                <div class="comments" id="comments">
+                    <p><i>Ana Dimitrova: </i>Very talanted author.</p>
+                    <p><i>Ivan Hristov: </i>My favourite author.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+</body>
+
+</html>

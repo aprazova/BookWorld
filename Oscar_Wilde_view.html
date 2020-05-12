@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Book World</title>
+    <link href="./css/authors.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script defer src="./js/addComment.js"></script>
+
+</head>
+
+<body class="container">
+    <div class="nav">
+        <div class="border">
+            <a href='genres.html'><button type="button" class="genres"><img src="./images/genres.jpeg"></button> </a>
+        </div>
+        <div class="border">
+            <a href='authors.html'><button type="button" class="authors"><img src="./images/authors.jpeg"></button></a>
+        </div>
+        <div class="border">
+            <a href='wishList.html'><button type="button" class="wl"><img src="./images/wl.jpeg"></button></a>
+        </div>
+        <div class="border">
+            <a href='favouriteAuthors.html'><button type="button" class="fa"><img src="./images/fa.jpeg"></button> </a>
+        </div>
+        <a href='authors.html'><button type="button" class="filter"><img class="filterIcon"
+                    src="./images/filter.jpeg"></button></a>
+    </div>
+    <header>
+        <figure>
+            <img class="logo" src="./images/book-logo.jpeg" alt="Book world logo">
+            <figcaption class="title"> Book World</figcaption>
+        </figure>
+        <div class="search">
+            <input class="searchBar" type="text" placeholder="Search">
+            <button type="submit"><i class="fa fa-search"></i></button>
+        </div>
+        <div class="login">
+            <form action="login-form.html">
+                <input type="image" src="./images/profile.jpeg" alt="Submit">
+            </form>
+        </div>
+        <legend>Authors</legend>
+    </header>
+    <section class="bookSection">
+
+        <div class="header-container">
+            <h3>Oscar Wilde</h3>
+            <hr>
+        </div>
+        <div class="content-container">
+            <div class="left-column biography">
+                <div class="photo">
+                    <img src="./images/oscar_wilde.jpeg" alt="Oscar Wilde portrait" />
+
+                </div>
+
+                <p class="paragraph"> Score: 3.9</p>
+            </div>
+
+            <div class="center-column book-desctription">
+                <p> Books: <a href="#">The Picture of Dorian Gray </a></p>
+
+                <p> Author, playwright and poet Oscar Wilde was a popular literary figure in late Victorian England. After graduating from Oxford University, he lectured as a poet, art critic and a leading proponent of the principles of aestheticism. In 1891,
+                    he published The Picture of Dorian Gray, his only novel which was panned as immoral by Victorian critics, but is now considered one of his most notable works. As a dramatist, many of Wilde’s plays were well received including his satirical
+                    comedies Lady Windermere's Fan (1892), A Woman of No Importance (1893), An Ideal Husband (1895) and The Importance of Being Earnest (1895), his most famous play. Unconventional in his writing and life, Wilde’s affair with a young man
+                    led to his arrest on charges of "gross indecency" in 1895. He was imprisoned for two years and died in poverty three years after his release at the age of 46. </p>
+                <p>Oscar Fingal O'Flahertie Wills Wilde was born on October 16, 1854, in Dublin, Ireland. His father, William Wilde, was an acclaimed doctor who was knighted for his work as a medical advisor for the Irish censuses. William later founded
+                    St. Mark's Ophthalmic Hospital, entirely at his own personal expense, to treat the city's poor. Wilde's mother, Jane Francesca Elgee, was a poet who was closely associated with the Young Irelander Rebellion of 1848, a skilled linguist
+                    whose acclaimed English translation of Pomeranian novelist Wilhelm Meinhold's Sidonia the Sorceress had a deep influence on her son's later writing.</p>
+
+            </div>
+
+            <div class="right-column commentsSection">
+                <div class="heading">
+                    <img src="./images/comments.png" class="icon" alt="Comments icon">
+                    <p>Comments</p>
+                </div>
+                <div class="comments" id="comments">
+                    <p><i>Lora Stoqnova: </i>I like Defoe more.</p>
+                    <p><i>Martin Siromashki: </i>Talanted author.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+</body>
+
+</html>
