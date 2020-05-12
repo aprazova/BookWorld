@@ -121,6 +121,14 @@ input[type=image] {
     text-align: justify;
 }
 
+.center-column a {
+    color: grey;
+}
+
+.center-column a:visited {
+    color: grey;
+}
+
 .right-column {
     width: 23%;
     float: right;
