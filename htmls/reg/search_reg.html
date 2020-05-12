@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Book World </title>
+    <script defer src="../../js/behindSearch.js"></script>
+    <script type="text/javascript"></script>
+    <link href="../../css/search.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body class="container" onload="search()">
+    <header>
+        <figure>
+            <img class="logo" src="../../images/book-logo.jpeg" alt="Book world logo">
+            <figcaption class="title"> Book World</figcaption>
+        </figure>
+
+        <div class="search">
+            <input class="searchBar" id="myInput" type="text" placeholder="Search">
+            <button onclick="myFunction()"><i class="fa fa-search"></i></button>
+        </div>
+
+        <div class="login">
+            <form action="login-form.html">
+                <input type="image" src="../../images/settings_circle.jpeg" alt="Submit">
+            </form>
+        </div>
+    </header>
+
+    <div class="nav">
+        <div class="border">
+            <a href='genres.html'><button type="button" class="genres"><img src="../../images/genres.jpeg"></button>
+            </a>
+        </div>
+        <div class="border">
+            <a href='authors.html'><button type="button" class="authors"><img
+                        src="../../images/authors.jpeg"></button></a>
+        </div>
+        <div class="border">
+            <a href='wishList.html'><button type="button" class="wl"><img src="../../images/wl.jpeg"></button></a>
+        </div>
+        <div class="border">
+            <a href='favouriteAuthors.html'><button type="button" class="fa"><img src="../../images/fa.jpeg"></button>
+            </a>
+        </div>
+        <a href='authors.html'><button type="button" class="filter"><img class="filterIcon"
+                    src="../../images/filter.jpeg"></button></a>
+    </div>
+
+    <ul id="myUL">
+        <li><a href="./authors/Oscar_Wilde.html">Oscar Wilde</a></li>
+        <li><a href="./authors/Margaret_Mitchell.html">Margaret Mitchell</a></li>
+        <li><a href="./authors/Lewis_Carroll.html">Lewis Carroll</a></li>
+        <li><a href="./authors/Joanne_Rowling.html">Joanne Rowling</a></li>
+        <li><a href="./authors/Daniel_Defoe.html">Daniel Defoe</a></li>
+        <li><a href="./books/hp_and_the_philosophers_stone.html">Harry Potter and the Philosopher's Stone</a></li>
+        <li><a href="./books/gone_with_the_wind.html">Gone with the Wind</a></li>
+        <li><a href="./books/robinson_crusoe.html">Robinson Crusoe</a></li>
+        <li><a href="./books/alices_adventures_in_wonderland.html">Alice's Adventures in Wonderland</a></li>
+        <li><a href="./books/the_picture_of_dorian_gray.html">The Picture of Dorian Gray</a></li>
+    </ul>
+</body>
+
+</html>
