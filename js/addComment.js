@@ -1,7 +1,11 @@
 function render(data) {
-    let html = "<p><i>You: </i> " + data +
-        "</p>";
-    $('#comments').append(html);
+    if (data != null && data != "") {
+        $('#errorMsg').val('');
+        let html = "<p><i>You: </i> " + data +
+            "</p>";
+
+        $('#comments').append(html);
+    }
 }
 
 $(document).ready(function() {

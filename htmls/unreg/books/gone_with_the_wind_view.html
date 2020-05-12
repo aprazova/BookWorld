@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Book World</title>
+    <link href="../../../css/booksView.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+
+<body class="container">
+    <div class="nav">
+        <div class="border">
+            <a href='genres.html'><button type="button" class="genres"><img src="../../../images/genres.jpeg"></button> </a>
+        </div>
+        <div class="border">
+            <a href='authorsView.html'><button type="button" class="authors"><img src="../../../images/authors.jpeg"></button></a>
+        </div>
+
+        <a href='authors.html'><button type="button" class="filter"><img class="filterIcon"
+                    src="../../../images/filter.jpeg"></button></a>
+    </div>
+    <header>
+        <figure>
+            <img class="logo" src="../../../images/book-logo.jpeg" alt="Book world logo">
+            <figcaption class="title"> Book World</figcaption>
+        </figure>
+        <div class="search">
+            <input class="searchBar" type="text" placeholder="Search">
+            <button type="submit"><i class="fa fa-search"></i></button>
+        </div>
+        <div class="login">
+            <form action="login-form.html">
+                <input type="image" src="../../../images/profile.jpeg" alt="Submit">
+            </form>
+        </div>
+        <legend>Books</legend>
+    </header>
+    <section class="bookSection">
+
+        <div class="header-container">
+            <h3>Gone And The Wind</h3>
+            <hr>
+        </div>
+        <div class="content-container">
+            <div class="left-column biography">
+                <div class="photo">
+                    <img src="../../../images/gone_with_the_wind.jpeg" alt="Gone with the Wind photo." />
+
+                </div>
+
+                <p class="paragraph"> Score: 4.8</p>
+            </div>
+
+            <div class="center-column book-desctription">
+                <p> Author: <a href="../authors/Margaret_Mitchell_view.html">Margaret Mitchell</a></p>
+
+                <p>Gone with the Wind is a novel by American writer Margaret Mitchell, first published in 1936. The story is set in Clayton County and Atlanta, both in Georgia, during the American Civil War and Reconstruction Era. It depicts the struggles
+                    of young Scarlett O'Hara, the spoiled daughter of a well-to-do plantation owner, who must use every means at her disposal to claw her way out of poverty following Sherman's destructive "March to the Sea". This historical novel features
+                    a coming-of-age story, with the title taken from a poem written by Ernest Dowson.</p>
+                <p> Gone with the Wind was popular with American readers from the outset and was the top American fiction bestseller in 1936 and 1937. As of 2014, a Harris poll found it to be the second favorite book of American readers, just behind the Bible.
+                    More than 30 million copies have been printed worldwide.</p>
+                <p>Gone with the Wind is a controversial reference point for subsequent writers of the South, both black and white. Scholars at American universities refer to, interpret, and study it in their writings. The novel has been absorbed into American
+                    popular culture.</p>
+                <p>Mitchell received the Pulitzer Prize for Fiction for the book in 1937. It was adapted into the 1939 film of the same name, which is often considered to be one of the greatest movies ever made. Gone with the Wind is the only novel by Mitchell
+                    published during her lifetime.</p>
+            </div>
+
+            <div class="right-column commentsSection">
+                <div class="heading">
+                    <img src="../../../images/comments.png" class="icon" alt="Comments icon">
+                    <p>Comments</p>
+                </div>
+                <div class="comments" id="comments">
+                    <p><i>Maria Godjeva: </i>Awesome book.</p>
+                    <p><i>Dimitur Dimitrov: </i>I have to read it again.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+</body>
+
+</html>
