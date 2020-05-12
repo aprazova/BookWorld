@@ -1,19 +1,24 @@
-body 
-{
+body {
     margin: 0;
-    background-image: url("../images/background.gif");
+    background-image: url("../images/background.jpeg");
 }
 
-.header img
-{
+main legend {
+    font-size: 40px;
+    font-style: bold italic;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+
+.header img {
     border-radius: 20px;
     /*width: 40px;
     height: 40px;*/
     max-width: 100px;
 }
 
-.header h3
-{
+.header h3 {
     font-family: "Comic Sans MS", cursive, sans-serif;
     padding-top: 10px;
     padding-left: 20px;
@@ -22,20 +27,16 @@ body
     /*font-size: 48px;*/
 }
 
-.header
-{
+.header {
     display: flex;
     align-items: center;
     justify-content: center;
-
-    border-image: url(rounded-edge.png) 25% repeat;
     border-width: 25px;
     margin-top: -20px;
 }
 
-.registration
-{
-    background: linear-gradient(rgb(218, 218, 218), white);
+.registration {
+    background: linear-gradient(to top, transparent, #B5B4B4);
     margin: auto;
     margin-top: 0px;
     text-align: center;
@@ -43,43 +44,40 @@ body
     border-radius: 40px;
     padding-top: 20px;
     width: 300px;
-    height: 430px;
+    height: 350px;
     margin-bottom: 30px;
     margin-top: -20px;
 }
 
-.registration legend
-{
+.registration legend {
     font-family: "Comic Sans MS", cursive, sans-serif;
     font-size: 30px;
 }
 
-.input-container
-{
+.input-container {
     border: 2px solid black;
     border-radius: 40px;
     padding: 10px;
     margin: 10px;
 }
 
-
-#password 
-{
+#password {
     margin-left: 10px;
     top: 0;
     display: block;
     color: black;
 }
 
-.input-container
-{
+.input-container {
     position: relative;
-
     margin-top: 10px;
 }
 
-#username, #firstName, #lastName, #password, #confirmPassword
-{
+#username,
+#firstName,
+#lastName,
+#password,
+#confirmPassword {
     width: 100%;
     color: black;
     font-family: "Comic Sans MS", cursive, sans-serif;
@@ -88,12 +86,14 @@ body
     border: 0;
 }
 
-.controllers button
-{
+.controllers button {
+    width: 170px;
     margin-left: 15px;
     margin-right: 15px;
+    background: linear-gradient(to bottom, transparent, #B5B4B4);
     font-family: "Comic Sans MS", cursive, sans-serif;
     font-size: 20px;
+    border-radius: 15px;
     border: 2px solid black;
     margin-bottom: 10px
 }

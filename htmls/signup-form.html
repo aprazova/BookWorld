@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta content="text/html; charset=UTF-8" http-equiv="Content-Type" />
+    <title>Book World</title>
+    <script src="../js/signup.js"></script>
+    <link href="../css/signup-form.css" rel="stylesheet"></link>
+</head>
+
+<body>
+
+    <header class="header">
+        <img src="../images/book-logo.jpeg">
+        <h3> Book World </h3>
+    </header>
+
+    <main>
+        <!--         <label id="msg"></label> -->
+        <legend> SignUp </legend>
+
+        <form class="registration" method="POST" onsubmit="return validate();">
+
+            <div class="input-container">
+                <input type="text" id="firstName" required pattern="[\w]+" placeholder="First Name" title=" The username must contain 3 to 10 characters (letters, numbers and _ ).">
+            </div>
+
+            <div class="input-container">
+                <input type="text" id="lastName" required pattern="[\w]+" placeholder="Last Name" title=" The username must contain 3 to 10 characters (letters, numbers and _ ).">
+            </div>
+
+            <div class="input-container">
+                <input type="password" id="password" placeholder="Password" minlength="6" required title="The password must be at least 6 characters, including uppercase, lowercase, and number.">
+            </div>
+
+            <div class="input-container">
+                <input type="password" id="confirmPassword" required placeholder="Confirm Password">
+            </div>
+
+            <div class="controllers">
+                <button type="submit"> Register </button>
+            </div>
+
+        </form>
+    </main>
+
+</body>
+
+</html>
