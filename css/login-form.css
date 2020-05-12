@@ -1,6 +1,7 @@
 body {
     margin: 0;
     background-image: url("../images/background.jpeg");
+    background-size: cover;
 }
 
 .header img {
@@ -29,7 +30,8 @@ body {
 }
 
 .registration {
-    background: linear-gradient(rgb(218, 218, 218), white);
+    background: linear-gradient(to top, transparent, #B5B4B4);
+    /* background: linear-gradient(rgb(218, 218, 218), white); */
     margin: auto;
     margin-top: 0px;
     text-align: center;
@@ -106,7 +108,9 @@ body {
 .controllers button {
     margin-left: 15px;
     margin-right: 15px;
+    background: linear-gradient(to bottom, transparent, #B5B4B4);
     font-family: "Comic Sans MS", cursive, sans-serif;
+    border-radius: 15px;
     font-size: 20px;
     border: 2px solid black;
     margin-bottom: 10px
