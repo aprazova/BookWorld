@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Book World</title>
+    <link href="./css/authors.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script defer src="./js/addComment.js"></script>
+
+</head>
+
+<body class="container">
+    <div class="nav">
+        <div class="border">
+            <a href='genres.html'><button type="button" class="genres"><img src="./images/genres.jpeg"></button> </a>
+        </div>
+        <div class="border">
+            <a href='authors.html'><button type="button" class="authors"><img src="./images/authors.jpeg"></button></a>
+        </div>
+        <div class="border">
+            <a href='wishList.html'><button type="button" class="wl"><img src="./images/wl.jpeg"></button></a>
+        </div>
+        <div class="border">
+            <a href='favouriteAuthors.html'><button type="button" class="fa"><img src="./images/fa.jpeg"></button> </a>
+        </div>
+        <a href='authors.html'><button type="button" class="filter"><img class="filterIcon"
+                    src="./images/filter.jpeg"></button></a>
+    </div>
+    <header>
+        <figure>
+            <img class="logo" src="./images/book-logo.jpeg" alt="Book world logo">
+            <figcaption class="title"> Book World</figcaption>
+        </figure>
+        <div class="search">
+            <input class="searchBar" type="text" placeholder="Search">
+            <button type="submit"><i class="fa fa-search"></i></button>
+        </div>
+        <div class="login">
+            <form action="login-form.html">
+                <input type="image" src="./images/profile.jpeg" alt="Submit">
+            </form>
+        </div>
+        <legend>Authors</legend>
+    </header>
+    <section class="bookSection">
+
+        <div class="header-container">
+            <h3>Lewis Carroll</h3>
+            <hr>
+        </div>
+        <div class="content-container">
+            <div class="left-column biography">
+                <div class="photo">
+                    <img src="./images/lewis_carroll.jpeg" alt="Lewis Carroll portrait" />
+
+                </div>
+
+                <p class="paragraph"> Score: 4</p>
+
+                <div class="rating">
+                    <p>Rate:</p>
+                    <input type="radio" id="star5" name="rating" value="5" />
+                    <label for="star5">5 stars</label>
+                    <input type="radio" id="star4" name="rating" value="4" />
+                    <label for="star4">4 stars</label>
+                    <input type="radio" id="star3" name="rating" value="3" />
+                    <label for="star3">3 stars</label>
+                    <input type="radio" id="star2" name="rating" value="2" />
+                    <label for="star2">2 stars</label>
+                    <input type="radio" id="star1" name="rating" value="1" />
+                    <label for="star1">1 star</label>
+                </div>
+            </div>
+
+            <div class="center-column book-desctription">
+                <p> Books: <a href="#">Alice's Adventures in Wonderland</a></p>
+
+                <p> Lewis Carroll was an English fiction writer who wrote and created games as a child. At age 20, he received a studentship at Christ Church and was appointed a lecturer in mathematics. Carroll was shy but enjoyed creating stories for children.
+                    His most famous books include Alice's Adventures in Wonderland and Through the Looking-Glass. </p>
+                <p>Charles Lutwidge Dodgson, best known by his pseudonym, Lewis Carroll, was born in the village of Daresbury, England, on January 27, 1832. The eldest boy in a family of 11 children, Carroll was rather adept at entertaining himself and his
+                    siblings. His father, a clergyman, raised them in the rectory. As a boy, Carroll excelled in mathematics and won many academic prizes. At age 20, he was awarded a studentship (called a scholarship in other colleges) to Christ College.
+                    Apart from serving as a lecturer in mathematics, he was an avid photographer and wrote essays, political pamphlets and poetry. "The Hunting of the Snark" displays his wonderful ability in the genre of literary nonsense.</p>
+
+            </div>
+
+            <div class="right-column commentsSection">
+                <div class="heading">
+                    <img src="./images/comments.png" class="icon" alt="Comments icon">
+                    <p>Comments</p>
+                </div>
+                <div class="comments" id="comments">
+                    <p><i>Maq Tomova: </i>Very goow writer.</p>
+                    <p><i>Lazar Kostov: </i>The author of my favourite book.</p>
+                </div>
+                <div class="newComment">
+                    <img src="./images/profile.jpeg" class="avatar" alt="Profile image">
+                    <textarea id="comment-body" rows="3" cols="35" placeholder="Add a comment"></textarea>
+                    <input type="button" id="add-comment" value="Add Comment">
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+</body>
+
+</html>
