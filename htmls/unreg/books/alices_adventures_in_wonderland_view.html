@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Book World</title>
+    <link href="../../../css/booksView.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+
+<body class="container">
+    <div class="nav">
+        <div class="border">
+            <a href='genres.html'><button type="button" class="genres"><img src="../../../images/genres.jpeg"></button> </a>
+        </div>
+        <div class="border">
+            <a href='authorsView.html'><button type="button" class="authors"><img src="../../../images/authors.jpeg"></button></a>
+        </div>
+
+        <a href='authors.html'><button type="button" class="filter"><img class="filterIcon"
+                    src="../../../images/filter.jpeg"></button></a>
+    </div>
+    <header>
+        <figure>
+            <img class="logo" src="../../../images/book-logo.jpeg" alt="Book world logo">
+            <figcaption class="title"> Book World</figcaption>
+        </figure>
+        <div class="search">
+            <input class="searchBar" type="text" placeholder="Search">
+            <button type="submit"><i class="fa fa-search"></i></button>
+        </div>
+        <div class="login">
+            <form action="login-form.html">
+                <input type="image" src="../../../images/profile.jpeg" alt="Submit">
+            </form>
+        </div>
+        <legend>Books</legend>
+    </header>
+    <section class="bookSection">
+
+        <div class="header-container">
+            <h3>Alices Adventures In Wonderland</h3>
+            <hr>
+        </div>
+        <div class="content-container">
+            <div class="left-column biography">
+                <div class="photo">
+                    <img src="../../../images/alices_adventures_in_wonderland.jpeg" alt="Alices Adventures in Wonderland photo." />
+
+                </div>
+
+                <p class="paragraph"> Score: 3.1</p>
+            </div>
+
+            <div class="center-column book-desctription">
+                <p> Author: <a href="../authors/Lewis_Carroll_view.html">Lewis Carroll</a></p>
+
+                <p>Alice's Adventures in Wonderland (commonly shortened to Alice in Wonderland) is an 1865 novel written by English author Charles Lutwidge Dodgson under the pseudonym Lewis Carroll. It tells of a young girl named Alice falling through a
+                    rabbit hole into a subterranean fantasy world populated by peculiar, anthropomorphic creatures. The tale plays with logic, giving the story lasting popularity with adults as well as with children.[2] It is considered to be one of the
+                    best examples of the literary nonsense genre.</p>
+                <p>One of the best-known and most popular works of English-language fiction, its narrative course, structure, characters, and imagery have been enormously influential in both popular culture and literature, especially in the fantasy genre.[3]
+                    The work has never been out of print, and it has been translated into at least 97 languages.[4] Its ongoing legacy encompasses many adaptations for stage, screen, radio, art, theme parks, board games, and video games.[5] Carroll published
+                    a sequel in 1871, entitled Through the Looking-Glass, and a version for young children, The Nursery "Alice", in 1890.</p>
+            </div>
+
+            <div class="right-column commentsSection">
+                <div class="heading">
+                    <img src="../../../images/comments.png" class="icon" alt="Comments icon">
+                    <p>Comments</p>
+                </div>
+                <div class="comments" id="comments">
+                    <p><i>Martina M.: </i>This is the first book I've ever read.</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+</body>
+
+</html>
