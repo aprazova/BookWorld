@@ -1,0 +1,120 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#map {
+    height: 60%;
+    width: 50%;
+    position: absolute;
+    top: 37%;
+    left: 25%;
+    margin-bottom: 25px;
+    border: 1px solid gray;
+}
+
+.availability{
+    font-size: 36px;
+    font-family: "Comic Sans MS", cursive, sans-serif;  
+    position: absolute;
+    top: 15%;
+    left: 40%;
+}
+
+.pageTitle{
+    font-size: 24px;
+    font-family: "Comic Sans MS", cursive, sans-serif;  
+    position: absolute;
+    top: 25%;
+    left: 42%;
+}
+
+.nav {
+    position: fixed;
+    top: 40%;
+    left: 0px;
+    width: 55px;
+    height: 270px;
+    background: linear-gradient(grey, lightgrey);
+    border-radius: 20px;
+  }
+   
+  .nav button {
+    background-color: transparent;
+    border: none;
+  }
+   
+  .border {
+    border-bottom: 1px solid black;
+  }
+   
+  .genres img, .authors img, .wl img, .fa img, .filter img {
+    width: 40px;
+    height: 40px;
+    margin-top: 5px;
+    margin-bottom: 2px;
+  }
+
+.container{
+    background-image: url("../images/background.jpeg");
+    font-family: "Comic Sans MS", cursive, sans-serif;
+  }
+  .logo{
+    width:40px;
+    height:40px;
+    margin-left:300px;  
+  }
+  figcaption.title{
+    font-size: 48px;
+    margin: -60px;
+    margin-left:400px;  
+  }
+  .profilePicture {
+    width: 200px;
+    height: 200px;
+    margin-top: 5px;
+    margin-bottom: 2px;
+    margin-left: -100px;
+  }
+  .personalName{
+    font-size: 26px;
+    margin-left: -100px;
+  }
+  div.search button {
+    width: 5%;
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none;
+    opacity:0.5;
+  }
+  div.search button:hover {
+    background-color: khaki;
+  }
+  .news1 p{
+    text-align: justify;
+    vertical-align: top;
+    font-size:24px;
+    display:inline;
+  }
+
+  div.search input[type=text] {
+      padding: 10px;
+      font-size: 17px;
+      border: 1px solid grey;
+      float: left;
+      width: 20%;
+      background: #f1f1f1;
+      margin-left:800px;
+      border-right: none;
+      opacity:0.5;
+    }
+    
+    input[type=image]{
+      width:40px;
+      height: 40px;
+      float:right;
+      margin-top: -40px;
+    }
+  
