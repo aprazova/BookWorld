@@ -57,10 +57,9 @@ div.search button:hover {
 }
 
 .save-button {
-    margin-left: 500px;
+    margin-left: 100px;
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    width: 10%;
-    padding: 10px;
+    width: 40%;
     font-size: 17px;
     font-family: "Comic Sans MS", cursive, sans-serif;
     border: 1px solid grey;
@@ -70,57 +69,39 @@ div.search button:hover {
     border-radius: 20px;
 }
 
-.editButton:hover {
+.save-button:hover {
     box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
     background-color: grey;
 }
 
 .rightButtons {
     height: 300px;
-}
-
-.wlButton {
-    margin-right: 50px;
     float: right;
-    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    width: 28%;
-    padding: 10px;
-    font-size: 17px;
-    font-family: "Comic Sans MS", cursive, sans-serif;
-    border: 1px solid grey;
-    border-bottom: none;
-    background: linear-gradient(#B5B4B4, transparent);
-    border-radius: 20px;
-    margin-left: 800px;
-    margin-top: -280px;
-    font-size: 24px;
+    margin-top: -350px;
+    margin-right: 150px;
 }
 
-.wlButton:hover {
-    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
-    background-color: grey;
+.rightButtons .checkbox {
+    width: 350px;
+    background-color: blueviolet;
+    height: 150px;
+    background: linear-gradient(to top, transparent, #B5B4B4);
+    margin-bottom: 30px;
+    vertical-align: middle;
+    border-radius: 40px;
+    overflow: hidden;
+    text-align: center;
 }
 
-.faButton {
-    margin-right: 50px;
+.info {
+    margin: 10px 10px;
+    height: 30px;
+}
+
+.info input {
+    width: 50%;
     float: right;
-    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    width: 28%;
-    padding: 10px;
-    font-size: 17px;
-    font-family: "Comic Sans MS", cursive, sans-serif;
-    border: 1px solid grey;
-    border-top: none;
-    margin-top: 5px;
-    background: linear-gradient(transparent, #B5B4B4);
-    border-radius: 20px;
-    margin-top: -200px;
-    font-size: 24px;
-}
-
-.faButton:hover {
-    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
-    background-color: grey;
+    height: 20px;
 }
 
 div.search input[type=text] {
@@ -191,10 +172,10 @@ button[type=button] {
 
 .newsfeed {
     width: 440px;
-    height: 300px;
+    height: 350px;
     vertical-align: middle;
     margin-top: -400px;
-    margin-left: 350px;
+    margin-left: 500px;
     background: linear-gradient(#B5B4B4, transparent);
     border-radius: 40px;
     overflow: hidden;
