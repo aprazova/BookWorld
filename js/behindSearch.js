@@ -16,7 +16,7 @@ function myFunction() {
 
 }
 function search() {
-  var name = window.location.href.split("?pole=")[1];
+  var name = window.location.href.split("?searchInput=")[1];
   var input, filter, ul, li, a, i, txtValue;
   filter = name.toUpperCase();
   ul = document.getElementById("myUL");
