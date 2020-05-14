@@ -7,7 +7,8 @@
     <title> Book World </title>
     <link href="../../css/profileSettings.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
+    <script defer src="../../js/changeSettings.js"></script>
+    <script defer src="../../js/afterChangeSettings.js"></script>
 </head>
 
 <body class="container">
@@ -30,7 +31,7 @@
         <div>
             <a class="profilePicture"><img src="../../images/profile.jpeg"></a>
         </div>
-        <a class="personalName">Petya Petrova</a>
+        <a class="personalName" id="name">Petya Petrova</a>
 
     </section>
 
@@ -40,25 +41,26 @@
         </figure>
         <figure class="news1">
             <div>
-                <p> Location: Sofia </p>
+                <p id="location"> Location: Sofia </p>
             </div>
             <div>
-                <p> Hobby: books, music </p>
+                <p id="hobby"> Hobby: books, music </p>
             </div>
             <div>
-                <p> Age: 22 </p>
+                <p id="age"> Age: 22 </p>
             </div>
             <div>
-                <p> Favourite genre: horror </p>
+                <p id="favourite-genre"> Favourite genre: horror </p>
             </div>
             <div>
-                <p> Favourite book: Gone with the wind </p>
+                <p id="favourite-book"> Favourite book: Gone with the wind </p>
             </div>
         </figure>
     </section>
-    <button type="submit" class="editButton"> EDIT </button>
+    <button type="submit" class="editButton" onclick="window.location='./changeSettings.html'"> EDIT </button>
     <section class="rightButtons">
-        <button type="submit" class="wlButton"> View wish list </button>
+        <!-- To be deleted. Use for test. - onclich View WL -->
+        <button type="submit" class="wlButton" onclick="window.location = './registered.html'"> View wish list </button>
         <button type="submit" class="faButton"> View favourite authors </button>
     </section>
 </body>

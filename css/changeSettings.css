@@ -1,7 +1,73 @@
 .container {
     background-image: url("../images/background.jpeg");
     font-family: "Comic Sans MS", cursive, sans-serif;
+    background-size: cover;
 }
+
+.sections {
+    margin-top: 200px;
+    /* background-color: black; */
+}
+
+
+/* header {
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+header .title {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo {
+    width: 40px;
+    height: 40px;
+}
+
+.login input {
+    width: 60px;
+    height: 60px;
+}
+
+.search {
+    width: 30%;
+    margin: auto 20px;
+}
+
+.title logo {
+    padding-left: 0px;
+    padding-right: 0px;
+    width: 60%;
+    font-size: 48px;
+    float: left;
+}
+
+div.search button {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none;
+    margin-left: 0px;
+    opacity: 0.5;
+    margin-left: -6px;
+}
+
+div.search input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    background: #f1f1f1;
+    border-right: none;
+    margin-right: 0px;
+    opacity: 0.5;
+}
+ */
 
 .logo {
     width: 40px;
@@ -18,9 +84,6 @@ figcaption.title {
 .profilePicture {
     width: 200px;
     height: 200px;
-    margin-top: 5px;
-    margin-bottom: 2px;
-    margin-left: -100px;
 }
 
 .personalName {
@@ -125,7 +188,7 @@ input[type=image] {
 
 .menu {
     width: 300px;
-    height: 300px;
+    /* height: 300px; */
     vertical-align: middle;
     margin: 100px 200px;
 }
@@ -172,8 +235,9 @@ button[type=button] {
 
 .newsfeed {
     width: 440px;
-    height: 350px;
+    /* height: 350px; */
     vertical-align: middle;
+    padding-bottom: 20px;
     margin-top: -400px;
     margin-left: 500px;
     background: linear-gradient(#B5B4B4, transparent);
@@ -186,4 +250,12 @@ button[type=button] {
     height: 60px;
     display: inline-block;
     vertical-align: middle;
+}
+
+.menu #photoLabel {
+    padding: 20px;
+    border-radius: 40px;
+    margin-bottom: 100px;
+    border: #B5B4B4;
+    background: linear-gradient(#B5B4B4, transparent);
 }
