@@ -40,7 +40,7 @@ main legend {
     margin: auto;
     margin-top: 0px;
     text-align: center;
-    border: 2px solid black;
+    /* border: 2px solid black; */
     border-radius: 40px;
     padding-top: 20px;
     width: 300px;
@@ -92,8 +92,11 @@ main legend {
     margin-right: 15px;
     background: linear-gradient(to bottom, transparent, #B5B4B4);
     font-family: "Comic Sans MS", cursive, sans-serif;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     font-size: 20px;
     border-radius: 15px;
-    border: 2px solid black;
-    margin-bottom: 10px
+    /* border: 2px solid black; */
+    margin-bottom: 10px;
+    border: 1px solid grey;
+    border-top: none;
 }
