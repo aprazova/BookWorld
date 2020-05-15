@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Book World </title>
+    <link href="../../css/changeSettings.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script defer src="../../js/changeSettings.js"></script>
+    <!-- <link href="https://cdnjs.cloudflare.com/ajax/libs/ratchet/2.0.2/css/ratchet.css" rel="stylesheet" /> -->
+
+</head>
+
+<body class="container">
+    <header>
+        <figure>
+            <img class="logo" src="../../images/book-logo.jpeg" alt="Book world logo">
+            <figcaption class="title"> Book World</figcaption>
+        </figure>
+        <div class="search">
+            <input class="searchBar" type="text" placeholder="Search">
+            <button type="submit"><i class="fa fa-search"></i></button>
+        </div>
+        <div class="login">
+            <form action="login-form.html">
+                <input type="image" src="../../images/settings_circle.jpeg" alt="Submit">
+            </form>
+        </div>
+    </header>
+    <div class="sections">
+        <section class="menu">
+            <div>
+                <a class="profilePicture"><img src="../../images/profile.jpeg"></a>
+            </div>
+            <!-- <label for="imageUpload" class="btn btn-primary btn-block btn-outlined">Change profile picture</label>
+            <input type="file" id="imageUpload" accept="image/*" style="display: none"> -->
+            <label id="photoLabel" for="imageUpload" class="changePhoto">Change profile picture</label>
+            <input type="file" id="imageUpload" accept="image/*" style="display: none">
+
+        </section>
+
+        <section class="newsfeed">
+            <figure>
+                <p class="newsTitle"> Personal information </p>
+            </figure>
+            <figure class="news1">
+                <div class="info">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" />
+                </div>
+                <div class="info">
+                    <label for="location">Location:</label>
+                    <input type="text" id="location" name="location" />
+                </div>
+
+
+                <div class="info">
+                    <label for="hobby">Hobby:</label>
+                    <input type="text" id="hobby" name="hobby" />
+                </div>
+
+
+                <div class="info">
+                    <label for="age">Age:</label>
+                    <input type="text" id="age" name="age" />
+                </div>
+
+
+                <div class="info">
+                    <label for="favourite-genre">Favourite genres:</label>
+                    <input type="text" id="favourite-genre" name="favourite-genre" />
+                </div>
+
+                <div class="info">
+                    <label for="favourite-book">Favourite book:</label>
+                    <input type="text" id="favourite-book" name="favourite-book" />
+                </div>
+
+                <!-- <div>
+                <p> Hobby: books, music </p>
+            </div>
+            <div>
+                <p> Age: 22 </p>
+            </div>
+            <div>
+                <p> Favourite genre: horror </p>
+            </div>
+            <div>
+                <p> Favourite book: Gone with the wind </p>
+            </div> -->
+                <label id="errorMsg"></label>
+
+            </figure>
+
+            <button type="submit" class="save-button" onclick="changeSettings()"> SAVE </button>
+        </section>
+        <!-- <button type="submit" class="save-button"> SAVE </button> -->
+        <section class="rightButtons">
+            <div class="checkbox">
+                <h3> Wish List availability:</h3>
+                <input type="radio" id="private-wl" name="wl" value="private-wl">
+                <label for="private-wl"> Private </label>
+
+                <input type="radio" id="public-wl" name="wl" value="public-wl" checked>
+                <label for="public-wl"> Public </label>
+            </div>
+            <div class="checkbox">
+                <h3> Favourite Authors availability:</h3>
+
+                <input type="radio" id="private-fa" name="fa" value="private-wl">
+                <label for="private-fa"> Private </label>
+
+                <input type="radio" id="public-fa" name="fa" value="public-wl" checked>
+                <label for="public-fa"> Public </label>
+            </div>
+
+            <!-- 
+        <button type="submit" class="wlButton"> View wish list </button>
+        <button type="submit" class="faButton"> View favourite authors </button> -->
+        </section>
+    </div>
+</body>
+
+</html>
