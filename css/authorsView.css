@@ -166,3 +166,7 @@ hr {
     float: left;
     clear: left;
 }
+
+.center-column a {
+    color: grey;
+}

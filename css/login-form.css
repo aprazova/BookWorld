@@ -6,8 +6,6 @@ body {
 
 .header img {
     border-radius: 20px;
-    /*width: 40px;
-    height: 40px;*/
     max-width: 100px;
 }
 
@@ -31,11 +29,9 @@ body {
 
 .registration {
     background: linear-gradient(to top, transparent, #B5B4B4);
-    /* background: linear-gradient(rgb(218, 218, 218), white); */
     margin: auto;
     margin-top: 0px;
     text-align: center;
-    /* border: 2px solid black; */
     border-radius: 40px;
     padding-top: 20px;
     width: 300px;
@@ -113,7 +109,6 @@ body {
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border-radius: 15px;
     font-size: 20px;
-    /* border: 2px solid black; */
     margin-bottom: 10px;
     border: 1px solid grey;
     border-top: none;
@@ -121,4 +116,5 @@ body {
 
 .registration a {
     font-size: 18px;
+    color: grey;
 }
