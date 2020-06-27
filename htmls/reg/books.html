@@ -36,10 +36,12 @@
             <img class="logo" src="../../images/book-logo.jpeg" alt="Book world logo">
             <figcaption class="title"> Book World</figcaption>
         </figure>
-        <div class="search">
-            <input class="searchBar" type="text" placeholder="Search">
-            <button type="submit"><i class="fa fa-search"></i></button>
-        </div>
+        <form action="search_reg.html" class="searchForm" method="GET" enctype="multipart/form-data">
+            <div class="search">
+                <input type="text" name="searchInput" id="myInput" class="searchBar" placeholder="Search">
+                <button type="submit"><i class="fa fa-search"></i></button>
+            </div>
+        </form>
         <div class="login">
             <form action="./profileSettings.html">
                 <input type="image" src="../../images/profile.jpeg" alt="Submit">
